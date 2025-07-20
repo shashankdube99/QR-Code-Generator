@@ -43,19 +43,6 @@ jakarta.servlet.jsp.jstl
 com.google.zxing:core and javase
 spring-boot-devtools
 
-## 📂 Project Structure
-
-qrGenerator/
-├── controller/
-│ ├── PageController.java # Handles JSP home page
-│ └── QRCodeController.java # REST API for QR generation
-├── util/
-│ └── QRCodeGenerator.java # QR generation logic using ZXing
-├── resources/
-│ ├── application.properties # App + DB configuration
-│ └── /WEB-INF/jsp/index.jsp # Simple web interface
-└── MyfirstwebappApplication.java # Spring Boot main class
-
 ## Run MySQL in Docker
 #Docker should be active while running the below command:
 
